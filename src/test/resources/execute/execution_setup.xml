@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parameter Example TestSuite">
+	<test name="Sprint 14 Demo">
+		<classes>
+			<class name="com.noorteck.qa.runners.Runner"></class>
+		</classes>
+	</test>
+</suite>

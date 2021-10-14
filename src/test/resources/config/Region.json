@@ -1,0 +1,17 @@
+{
+  "scrum" : {
+    "url" : "https://ntkscrum-trials72.orangehrmlive.com/",
+    "username" : "Admin",
+    "password" : "@PkH7rC8Yd"
+  },
+  "sit" : {
+    "url" : "https://ntksit-trials72.orangehrmlive.com/",
+    "username" : "Admin",
+    "password" : "GsH28Gz@kU"
+  },
+  "stage" : {
+    "url" : "https://ntkstage-trials72.orangehrmlive.com/",
+    "username" : "Admin",
+    "password" : "Qd@o9ULc5J"
+  }
+}
