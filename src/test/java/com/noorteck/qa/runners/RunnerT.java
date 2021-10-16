@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/ntk360/PayGrades.feature", 
 		glue = "com.noorteck.qa.steps", 
-		plugin = { "pretty","html:target/cucumber-report.html","json:target/cucumber-report.json" }, 
+		plugin = { "pretty","html:target/cucumberR.html","json:target/cucumberR.json" }, 
 		monochrome = true
 
 )
