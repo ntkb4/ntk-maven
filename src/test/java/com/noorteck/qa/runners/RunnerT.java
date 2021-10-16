@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/ntk360/PayGrades.feature", 
 		glue = "com.noorteck.qa.steps", 
 		plugin = { "pretty","html:target/cucumber-report.html","json:target/cucumber-report.json" }, 
-		monochrome = true, tags = "@scruml"
+		monochrome = true
 
 )
 

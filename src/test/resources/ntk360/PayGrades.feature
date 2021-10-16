@@ -18,7 +18,7 @@ Feature: Login functionality
 
     Examples: 
       | region  | gradeName      |
-      | "scrum" | "Senior SDET26nn" |
+      | "scrum" | "Senior SDET2336nn" |
 
   Scenario Outline: Verify User able to edit existing Pay grades
     Given User is logged into NTK application <region>
@@ -31,4 +31,4 @@ Feature: Login functionality
 
     Examples: 
       | region  | gradeName     |
-      | "scrum" | "Junior SDEnnT" |
+      | "scrum" | "Junior SD333EnnT" |
