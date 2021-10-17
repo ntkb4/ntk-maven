@@ -17,3 +17,7 @@ Feature: Login functionality
     When User navigates to Pay Grades Page | click "menu.payGrades"
     Then System displays page header | verify "payGrades.header"
 #ouail
+ Scenario: Verify Pay Grades header title 3
+    Given User is logged into NTK application "scrum"
+    When User navigates to Pay Grades Page | click "menu.payGrades"
+    Then System displays page header | verify "payGrades.header"
