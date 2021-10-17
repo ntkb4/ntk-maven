@@ -7,8 +7,9 @@ Feature: Login functionality
     Then System displays page header | verify "payGrades.header"
 
 
-  Scenario Outline: Verify User able to add new Pay grades
-    Given User is logged into NTK application <region>
+  @scrumu
+  Scenario: Verify Pay Grades header title
+    Given User is logged into NTK application "scrum"
     When User navigates to Pay Grades Page | click "menu.payGrades"
     Then System displays page header | verify "payGrades.header"
 
