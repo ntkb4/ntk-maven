@@ -23,3 +23,4 @@ Feature: Login functionality
       | "scrum" | "Junior SD333EnnT"  |
       | "scrum" | "Senior SDET2336nn" |
       | "scrum" | "Junior SD444Ennt"	|
+      | "scrum" | "Junior Sd44Ennt" 	|
