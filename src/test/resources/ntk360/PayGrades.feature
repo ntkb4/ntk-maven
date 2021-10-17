@@ -22,3 +22,4 @@ Feature: Login functionality
       | region  | gradeName           |
       | "scrum" | "Junior SD333EnnT"  |
       | "scrum" | "Senior SDET2336nn" |
+      | "scrum" | "Junior SD444Ennt"	|
