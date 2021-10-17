@@ -10,10 +10,7 @@ Feature: Login functionality
   Scenario Outline: Verify User able to add new Pay grades
     Given User is logged into NTK application <region>
     When User navigates to Pay Grades Page | click "menu.payGrades"
-    And User clicks Add icon | click "common.addIcon"
-    And User enters name | enterValue "payGrades.name" <gradeName>
-    And User clicks save button | click "common.saveButton"
-    Then System displays message "Successfully Saved"
+    Then System displays page header | verify "payGrades.header"
 
 
     Examples: 
@@ -32,7 +29,8 @@ Feature: Login functionality
     Examples: 
       | region  | gradeName     |
       | "scrum" | "Junior SD333EnnT" |
-      
-  Scenario Outline: Verify User able to
+      | "scrum" | "Senior SDET2336nn"|
+
  
       
+
