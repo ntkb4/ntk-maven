@@ -6,15 +6,13 @@ Feature: Login functionality
     When User navigates to Pay Grades Page | click "menu.payGrades"
     Then System displays page header | verify "payGrades.header"
 
-
   Scenario Outline: Verify User able to add new Pay grades
     Given User is logged into NTK application <region>
     When User navigates to Pay Grades Page | click "menu.payGrades"
     Then System displays page header | verify "payGrades.header"
 
-
     Examples: 
-      | region  | gradeName      |
+      | region  | gradeName           |
       | "scrum" | "Senior SDET2336nn" |
 
   Scenario Outline: Verify User able to edit existing Pay grades
@@ -25,12 +23,7 @@ Feature: Login functionality
     And User clicks save button | click "common.saveButton"
     Then System displays message "Successfully Updated"
 
-
     Examples: 
-      | region  | gradeName     		 |
-      | "scrum" | "Junior SD333EnnT" |
-      | "scrum" | "Senior SDET2336nn"|
-
- 
-      
-
+      | region  | gradeName           |
+      | "scrum" | "Junior SD333EnnT"  |
+      | "scrum" | "Senior SDET2336nn" |
