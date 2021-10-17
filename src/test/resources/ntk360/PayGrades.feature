@@ -32,3 +32,7 @@ Feature: Login functionality
     Examples: 
       | region  | gradeName     |
       | "scrum" | "Junior SD333EnnT" |
+      
+  Scenario Outline: Verify User able to
+ 
+      
