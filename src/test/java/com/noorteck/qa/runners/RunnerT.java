@@ -11,10 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "src/test/resources/ntk360/PayGrades.feature", 
+		features = "src/test/resources/ntk360/", 
 		glue = "com.noorteck.qa.steps", 
 		plugin = { "pretty","html:target/cucumberR.html","json:target/cucumberR.json" }, 
-		monochrome = true
+		monochrome = true, tags = "@NTKB4-7"
 
 )
 
