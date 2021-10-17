@@ -27,7 +27,7 @@ Feature: Login functionality
 
 
     Examples: 
-      | region  | gradeName     |
+      | region  | gradeName     		 |
       | "scrum" | "Junior SD333EnnT" |
       | "scrum" | "Senior SDET2336nn"|
 
