@@ -6,11 +6,6 @@ Feature: Login functionality
     When User navigates to Pay Grades Page | click "menu.payGrades"
     Then System displays page header | verify "payGrades.header"
 
-  Scenario Outline: Verify User able to add new Pay grades
-    Given User is logged into NTK application <region>
-    When User navigates to Pay Grades Page | click "menu.payGrades"
-    Then System displays page header | verify "payGrades.header"
-
     Examples: 
       | region  | gradeName           |
       | "scrum" | "Senior SDET2336nn" |
